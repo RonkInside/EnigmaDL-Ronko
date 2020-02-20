@@ -42,9 +42,11 @@ public class LoadData {
 
 	static Properties fldConfProps = new Properties();
 
-	static String connectionProps = System.getenv("CONNECTIONPROPS");
+	//static String connectionProps = System.getenv("CONNECTIONPROPS");
+	static String connectionProps = "C:\\ENEL\\ENIGMA\\conf\\connection.properties";
 
-	static String applicationProps = System.getenv("APPLICATIONPROPS");
+	//static String applicationProps = System.getenv("APPLICATIONPROPS");
+	static String applicationProps = "C:\\ENEL\\ENIGMA\\conf\\application.properties";
 
 	static XSSFCell cellkhead;
 
